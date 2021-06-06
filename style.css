@@ -2,11 +2,13 @@
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     color: plum;
+    padding-left: 10px;
 }
 
 .countdown-timer {
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
 }
 
 .header-content {
@@ -30,3 +32,18 @@
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.primary-button {
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    padding: 10px 5px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+    
