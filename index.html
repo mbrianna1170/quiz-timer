@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Quiz</title>
+    <title>Code Quiz</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-<!--Highscore and Timer Here-->    
-<header>
-    <div class="header-content">
-        <h1 class="high-score-link" href="#">View high scores</h1>
-        <h1 class="countdown-timer" id="timer">Time: </h1>
-    </div>
-</header>
-<!--Quiz Section Starts Here-->
-<main class="container">
-    <div class="jumbotron">
-        <h1 class="start-heading">Coding Quiz Challene</h1> <br>
-        <p class="start-section">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! </p> <br>
-        <button class="primary-button" id="start-quiz">Start Quiz</button>
-    </div>
-    <input type="radio" name="choices"><br>
-  <input type="radio" name="choices"><br>
-  <input type="radio" name="choices"><br>
-  <input type="radio" name="choices"><br>
-    </main>
 
-  <script src="./script.js"></script>
-</body>
+<body>
+    <!--TIMER AND HIGH SCORE-->
+    <header>
+    <div class="header">
+        <a href="./highscore.html" h1 class="high-score">View High Scores</a></h2>
+        <h2 class="countdown-timer" id="timer">Time:</h2>
+
+    </div>
+    </header>
+    <!--QUIZ BOX STARTS HERE-->
+   <div class="quiz-box">
+       <div>
+           <div class="title">Coding Quiz Challenge</div>
+           <div class="directions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</div>
+       </div> 
+    <section>
+            <div class="question-text" id="question-text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option-list" id="option-list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+     <!-- START BUTTON -->
+        <div class="start-btn" id="start-btn"><button>Start Quiz</button></div>   
+     </div>
+     <!--QUIZ BOX ENDS-->
+
+
+    <!--HIGH SCORE BOX--> 
+
+
+     <script src="script.js"></script>
+</body>   
 </html>
